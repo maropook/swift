@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,64 +16,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鳴き声" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkM-Sk-v0l">
-                                <rect key="frame" x="161.5" y="144" width="91" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHl-Bt-nJ2">
+                                <rect key="frame" x="50" y="590" width="54" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="🐱"/>
+                                <connections>
+                                    <action selector="catButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LTJ-5J-wEa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鳴き声" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFt-Fi-y4p">
+                                <rect key="frame" x="131.5" y="144" width="151" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVq-TS-9e0">
-                                <rect key="frame" x="170" y="579" width="74" height="83"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="🐸">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
-                                </buttonConfiguration>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKs-77-UcJ">
+                                <rect key="frame" x="180" y="590" width="54" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="🐶"/>
                                 <connections>
-                                    <action selector="flogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VlE-Pt-YYW"/>
+                                    <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bIT-cE-ryh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYt-hE-iVt">
-                                <rect key="frame" x="50" y="579" width="74" height="83"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="🐱">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
-                                </buttonConfiguration>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcc-a8-dCn">
+                                <rect key="frame" x="310" y="590" width="54" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="🐸"/>
                                 <connections>
-                                    <action selector="catButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NXl-tV-nW3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQc-5W-x9U">
-                                <rect key="frame" x="290" y="579" width="74" height="83"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="🐶">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8mQ-M9-ihM"/>
+                                    <action selector="flogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZfY-tg-EzW"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kQc-5W-x9U" secondAttribute="bottom" constant="200" id="2aA-Vx-N8z"/>
-                            <constraint firstItem="EkM-Sk-v0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="6HY-Ah-dca"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FVq-TS-9e0" secondAttribute="bottom" constant="200" id="7VT-mg-c0y"/>
-                            <constraint firstItem="XYt-hE-iVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Ayg-B0-I5Y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XYt-hE-iVt" secondAttribute="bottom" constant="200" id="D48-Le-SBs"/>
-                            <constraint firstItem="EkM-Sk-v0l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u4s-Lf-u2X"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kQc-5W-x9U" secondAttribute="trailing" constant="50" id="ueN-dz-jXr"/>
-                            <constraint firstItem="EkM-Sk-v0l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wup-t8-01e"/>
-                            <constraint firstItem="FVq-TS-9e0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ycf-0Y-slC"/>
+                            <constraint firstItem="HKs-77-UcJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Ok-ip-v8K"/>
+                            <constraint firstItem="cFt-Fi-y4p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VrU-Zw-4Hq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HKs-77-UcJ" secondAttribute="bottom" constant="200" id="aj4-w4-RRA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PHl-Bt-nJ2" secondAttribute="bottom" constant="200" id="bwO-wP-nb9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fcc-a8-dCn" secondAttribute="trailing" constant="50" id="eXi-oc-LGh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fcc-a8-dCn" secondAttribute="bottom" constant="200" id="gXh-gd-U1n"/>
+                            <constraint firstItem="cFt-Fi-y4p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="hd9-4v-XEQ"/>
+                            <constraint firstItem="PHl-Bt-nJ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="pMw-Dn-mme"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="EkM-Sk-v0l" id="tw8-6Q-RUQ"/>
+                        <outlet property="label" destination="cFt-Fi-y4p" id="MFh-u1-vwk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
     <resources>

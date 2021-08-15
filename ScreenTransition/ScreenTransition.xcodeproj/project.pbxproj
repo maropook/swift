@@ -3,31 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		307B772026C7D32600FB310D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B771F26C7D32600FB310D /* AppDelegate.swift */; };
-		307B772226C7D32600FB310D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B772126C7D32600FB310D /* SceneDelegate.swift */; };
-		307B772426C7D32600FB310D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B772326C7D32600FB310D /* ViewController.swift */; };
-		307B772726C7D32600FB310D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B772526C7D32600FB310D /* Main.storyboard */; };
-		307B772926C7D32A00FB310D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307B772826C7D32A00FB310D /* Assets.xcassets */; };
-		307B772C26C7D32A00FB310D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307B772A26C7D32A00FB310D /* LaunchScreen.storyboard */; };
+		3047E5D526C8A19400F46550 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047E5D426C8A19400F46550 /* ModalViewController.swift */; };
+		3093DA7726C89E9A007EDD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093DA7626C89E9A007EDD01 /* AppDelegate.swift */; };
+		3093DA7926C89E9A007EDD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093DA7826C89E9A007EDD01 /* SceneDelegate.swift */; };
+		3093DA7B26C89E9A007EDD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093DA7A26C89E9A007EDD01 /* ViewController.swift */; };
+		3093DA7E26C89E9A007EDD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3093DA7C26C89E9A007EDD01 /* Main.storyboard */; };
+		3093DA8026C89E9C007EDD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3093DA7F26C89E9C007EDD01 /* Assets.xcassets */; };
+		3093DA8326C89E9C007EDD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3093DA8126C89E9C007EDD01 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		307B771C26C7D32600FB310D /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		307B771F26C7D32600FB310D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		307B772126C7D32600FB310D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		307B772326C7D32600FB310D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		307B772626C7D32600FB310D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		307B772826C7D32A00FB310D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		307B772B26C7D32A00FB310D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		307B772D26C7D32A00FB310D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3047E5D426C8A19400F46550 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		3093DA7326C89E9A007EDD01 /* ScreenTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3093DA7626C89E9A007EDD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3093DA7826C89E9A007EDD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3093DA7A26C89E9A007EDD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3093DA7D26C89E9A007EDD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3093DA7F26C89E9C007EDD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3093DA8226C89E9C007EDD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3093DA8426C89E9C007EDD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		307B771926C7D32600FB310D /* Frameworks */ = {
+		3093DA7026C89E9A007EDD01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,128 +39,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		307B771326C7D32600FB310D = {
+		3093DA6A26C89E9A007EDD01 = {
 			isa = PBXGroup;
 			children = (
-				307B771E26C7D32600FB310D /* HelloWorld */,
-				307B771D26C7D32600FB310D /* Products */,
+				3093DA7526C89E9A007EDD01 /* ScreenTransition */,
+				3093DA7426C89E9A007EDD01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		307B771D26C7D32600FB310D /* Products */ = {
+		3093DA7426C89E9A007EDD01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				307B771C26C7D32600FB310D /* HelloWorld.app */,
+				3093DA7326C89E9A007EDD01 /* ScreenTransition.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		307B771E26C7D32600FB310D /* HelloWorld */ = {
+		3093DA7526C89E9A007EDD01 /* ScreenTransition */ = {
 			isa = PBXGroup;
 			children = (
-				307B771F26C7D32600FB310D /* AppDelegate.swift */,
-				307B772126C7D32600FB310D /* SceneDelegate.swift */,
-				307B772326C7D32600FB310D /* ViewController.swift */,
-				307B772526C7D32600FB310D /* Main.storyboard */,
-				307B772826C7D32A00FB310D /* Assets.xcassets */,
-				307B772A26C7D32A00FB310D /* LaunchScreen.storyboard */,
-				307B772D26C7D32A00FB310D /* Info.plist */,
+				3093DA7626C89E9A007EDD01 /* AppDelegate.swift */,
+				3093DA7826C89E9A007EDD01 /* SceneDelegate.swift */,
+				3093DA7A26C89E9A007EDD01 /* ViewController.swift */,
+				3093DA7C26C89E9A007EDD01 /* Main.storyboard */,
+				3047E5D426C8A19400F46550 /* ModalViewController.swift */,
+				3093DA7F26C89E9C007EDD01 /* Assets.xcassets */,
+				3093DA8126C89E9C007EDD01 /* LaunchScreen.storyboard */,
+				3093DA8426C89E9C007EDD01 /* Info.plist */,
 			);
-			path = HelloWorld;
+			path = ScreenTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		307B771B26C7D32600FB310D /* HelloWorld */ = {
+		3093DA7226C89E9A007EDD01 /* ScreenTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 307B773026C7D32A00FB310D /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 3093DA8726C89E9C007EDD01 /* Build configuration list for PBXNativeTarget "ScreenTransition" */;
 			buildPhases = (
-				307B771826C7D32600FB310D /* Sources */,
-				307B771926C7D32600FB310D /* Frameworks */,
-				307B771A26C7D32600FB310D /* Resources */,
+				3093DA6F26C89E9A007EDD01 /* Sources */,
+				3093DA7026C89E9A007EDD01 /* Frameworks */,
+				3093DA7126C89E9A007EDD01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
-			productName = HelloWorld;
-			productReference = 307B771C26C7D32600FB310D /* HelloWorld.app */;
+			name = ScreenTransition;
+			productName = ScreenTransition;
+			productReference = 3093DA7326C89E9A007EDD01 /* ScreenTransition.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		307B771426C7D32600FB310D /* Project object */ = {
+		3093DA6B26C89E9A007EDD01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					307B771B26C7D32600FB310D = {
-						CreatedOnToolsVersion = 13.0;
+					3093DA7226C89E9A007EDD01 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 307B771726C7D32600FB310D /* Build configuration list for PBXProject "HelloWorld" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 3093DA6E26C89E9A007EDD01 /* Build configuration list for PBXProject "ScreenTransition" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 307B771326C7D32600FB310D;
-			productRefGroup = 307B771D26C7D32600FB310D /* Products */;
+			mainGroup = 3093DA6A26C89E9A007EDD01;
+			productRefGroup = 3093DA7426C89E9A007EDD01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				307B771B26C7D32600FB310D /* HelloWorld */,
+				3093DA7226C89E9A007EDD01 /* ScreenTransition */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		307B771A26C7D32600FB310D /* Resources */ = {
+		3093DA7126C89E9A007EDD01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307B772C26C7D32A00FB310D /* LaunchScreen.storyboard in Resources */,
-				307B772926C7D32A00FB310D /* Assets.xcassets in Resources */,
-				307B772726C7D32600FB310D /* Main.storyboard in Resources */,
+				3093DA8326C89E9C007EDD01 /* LaunchScreen.storyboard in Resources */,
+				3093DA8026C89E9C007EDD01 /* Assets.xcassets in Resources */,
+				3093DA7E26C89E9A007EDD01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		307B771826C7D32600FB310D /* Sources */ = {
+		3093DA6F26C89E9A007EDD01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307B772426C7D32600FB310D /* ViewController.swift in Sources */,
-				307B772026C7D32600FB310D /* AppDelegate.swift in Sources */,
-				307B772226C7D32600FB310D /* SceneDelegate.swift in Sources */,
+				3047E5D526C8A19400F46550 /* ModalViewController.swift in Sources */,
+				3093DA7B26C89E9A007EDD01 /* ViewController.swift in Sources */,
+				3093DA7726C89E9A007EDD01 /* AppDelegate.swift in Sources */,
+				3093DA7926C89E9A007EDD01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		307B772526C7D32600FB310D /* Main.storyboard */ = {
+		3093DA7C26C89E9A007EDD01 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				307B772626C7D32600FB310D /* Base */,
+				3093DA7D26C89E9A007EDD01 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		307B772A26C7D32A00FB310D /* LaunchScreen.storyboard */ = {
+		3093DA8126C89E9C007EDD01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				307B772B26C7D32A00FB310D /* Base */,
+				3093DA8226C89E9C007EDD01 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,13 +169,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		307B772E26C7D32A00FB310D /* Debug */ = {
+		3093DA8526C89E9C007EDD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -217,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,13 +230,13 @@
 			};
 			name = Debug;
 		};
-		307B772F26C7D32A00FB310D /* Release */ = {
+		3093DA8626C89E9C007EDD01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -272,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,57 +285,39 @@
 			};
 			name = Release;
 		};
-		307B773126C7D32A00FB310D /* Debug */ = {
+		3093DA8826C89E9C007EDD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B7RG7SJ98F;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = ScreenTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.ScreenTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		307B773226C7D32A00FB310D /* Release */ = {
+		3093DA8926C89E9C007EDD01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B7RG7SJ98F;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_FILE = ScreenTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maropook.ScreenTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		307B771726C7D32600FB310D /* Build configuration list for PBXProject "HelloWorld" */ = {
+		3093DA6E26C89E9A007EDD01 /* Build configuration list for PBXProject "ScreenTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				307B772E26C7D32A00FB310D /* Debug */,
-				307B772F26C7D32A00FB310D /* Release */,
+				3093DA8526C89E9C007EDD01 /* Debug */,
+				3093DA8626C89E9C007EDD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		307B773026C7D32A00FB310D /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		3093DA8726C89E9C007EDD01 /* Build configuration list for PBXNativeTarget "ScreenTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				307B773126C7D32A00FB310D /* Debug */,
-				307B773226C7D32A00FB310D /* Release */,
+				3093DA8826C89E9C007EDD01 /* Debug */,
+				3093DA8926C89E9C007EDD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 307B771426C7D32600FB310D /* Project object */;
+	rootObject = 3093DA6B26C89E9A007EDD01 /* Project object */;
 }

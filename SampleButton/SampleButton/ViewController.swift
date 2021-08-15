@@ -2,12 +2,13 @@
 //  ViewController.swift
 //  SampleButton
 //
-//  Created by 長谷川樹 on 2021/08/14.
+//  Created by 長谷川樹 on 2021/08/15.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+
     @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
@@ -16,21 +17,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func catButton(_ sender: Any) {
-        label.text = "ニャー"
+        label.text = "にゃー"
     }
-    
-    
-    @IBAction func flogButton(_ sender: Any) {
-        label.text = "ゲロゲロ"
-    }
-    
     
     @IBAction func dogButton(_ sender: Any) {
-        label.text = "ワン"
     }
     
-    
-    
-    
+    @IBAction func flogButton(_ sender: Any) {
+    }
 }
 

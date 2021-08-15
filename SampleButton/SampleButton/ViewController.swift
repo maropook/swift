@@ -21,9 +21,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dogButton(_ sender: Any) {
+        label.text = "わん"
     }
     
     @IBAction func flogButton(_ sender: Any) {
+        label.text = "ケロ"
     }
 }
 
